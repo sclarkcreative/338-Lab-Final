@@ -55,7 +55,21 @@ hr {
 	border-top: 1px double #8c8b8b;
 }
 
-.images {
-	display:block;
+.images img{
 	float:left;
+	
+}
+
+.images h2{
+float:left;
+}
+
+.clear {
+clear:both;
+}
+
+p {
+    height:20px;
+	width:100%;
+	border-style: solid yellow;
 }
