@@ -73,3 +73,6 @@ p {
 	width:100%;
 	border-style: solid yellow;
 }
+
+figcaption { display:block;
+}
