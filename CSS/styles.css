@@ -61,7 +61,7 @@ figure img {
 
 }
 
-figure, figcaption { 
+figure { 
 	display:block;
 	float:left;
 	position:relative;
