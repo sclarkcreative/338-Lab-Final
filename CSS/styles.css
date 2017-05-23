@@ -73,6 +73,8 @@ figcaption {
 	text-align:center;
 }
 
+
+
 /* styling for conversion chart page */
 
 table {
@@ -100,6 +102,21 @@ tr:hover {
 	background-color:lightcoral;	
 }
 
-th:hover {
-	
+
+/* styling for email submission */
+
+fieldset {
+		background-color:mintcream;
+		text-align:center;
+		border:none;
+		padding:20px;
+		position:fixed;
+		bottom:0;
+		width:100%;
+}
+
+h2 {
+		font-family:'Dancing Script',cursive;
+		font-size:1.5em;
+		color:lightcoral;
 }
