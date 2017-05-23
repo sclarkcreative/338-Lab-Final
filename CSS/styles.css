@@ -62,13 +62,44 @@ figure img {
 }
 
 figure, figcaption { 
-			display:block;
-			float:left;
-			position:relative;
-			left:30px;
+	display:block;
+	float:left;
+	position:relative;
+	left:30px;
 }
 
 figcaption {
-		font-family:'Ovo',serif;
-		text-align:center;
+	font-family:'Ovo',serif;
+	text-align:center;
+}
+
+/* styling for conversion chart page */
+
+table {
+	border-collapse:collapse;
+	width:70%;
+	margin-top:20px;
+}
+
+table, th, td {
+	border:1px dotted black;
+}
+
+th, td {
+	padding:10px;
+	text-align:center;
+}
+
+th {
+	font-family:'Dancing Script', cursive;
+	font-size:1.5em;
+	color:lightcoral;
+}
+
+tr:hover {
+	background-color:lightcoral;	
+}
+
+th:hover {
+	
 }
