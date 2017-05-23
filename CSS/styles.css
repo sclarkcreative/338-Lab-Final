@@ -44,7 +44,7 @@ a:hover {
 /* end nav bar styling, begin feature styling */
 
 h1 {
-	margin-top:2em;
+	margin:30px auto;
 	font-family: 'Ovo', serif;
 	text-align:center;
 	font-size:1.2em;
@@ -80,7 +80,7 @@ figcaption {
 table {
 	border-collapse:collapse;
 	width:70%;
-	margin-top:20px;
+	margin:20px auto;
 }
 
 table, th, td {
@@ -105,7 +105,7 @@ tr:hover {
 
 /* homepage quote */
 
-h2 {
+blockquote {
 	width:50%;
 	padding:50px;
 	margin:50px auto;
@@ -113,7 +113,7 @@ h2 {
 	clear:left;
 	font-family:'Dancing Script',cursive;
 	font-size:1.5em;
-	color:lightcoral;
+	color:palevioletred;
 }
 
 
@@ -132,5 +132,9 @@ fieldset {
 
 h3 {
 		font-family:'Ovo',serif;
-		font-size:1.5em;
+		font-size:1.25em;
+}
+
+p {
+	font family:'Ovo', serif;
 }
