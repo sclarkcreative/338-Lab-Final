@@ -1,0 +1,121 @@
+Last login: Tue May 16 12:09:30 on console
+grc-korea:~ sclark20$ cd desktop
+grc-korea:desktop sclark20$ cd 338 Final Project
+-bash: cd: 338: No such file or directory
+grc-korea:desktop sclark20$ cd "338 Final Project"
+grc-korea:338 Final Project sclark20$ git init
+Initialized empty Git repository in /Users/sclark20/Desktop/338 Final Project/.git/
+grc-korea:338 Final Project sclark20$ git add -A
+grc-korea:338 Final Project sclark20$ git commit -m "add files"
+[master (root-commit) ef1f1ff] add files
+ 6 files changed, 13 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 CSS/.DS_Store
+ create mode 100644 CSS/styles.css
+ create mode 100644 Images/.DS_Store
+ create mode 100644 Images/scullery_logo.png
+ create mode 100644 index.html
+grc-korea:338 Final Project sclark20$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+grc-korea:338 Final Project sclark20$ git remote add origin https://github.com/sclarkcreative/338-Lab-Final.git
+grc-korea:338 Final Project sclark20$ git push -u origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 3.23 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sclarkcreative/338-Lab-Final.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-korea:338 Final Project sclark20$ git commit -am "style nav bar"
+[master 2db00d8] style nav bar
+ 2 files changed, 67 insertions(+)
+grc-korea:338 Final Project sclark20$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.20 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/sclarkcreative/338-Lab-Final.git
+   ef1f1ff..2db00d8  master -> master
+grc-korea:338 Final Project sclark20$ git add -am "add images"
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+grc-korea:338 Final Project sclark20$ git push
+Everything up-to-date
+grc-korea:338 Final Project sclark20$ git commit -am "add images"
+[master d53a006] add images
+ 5 files changed, 38 insertions(+), 19 deletions(-)
+ rewrite Images/scullery_logo.png (99%)
+grc-korea:338 Final Project sclark20$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.91 KiB | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/sclarkcreative/338-Lab-Final.git
+   2db00d8..d53a006  master -> master
+grc-korea:338 Final Project sclark20$ git commit -am "include feature titles"
+[master d2120dc] include feature titles
+ 2 files changed, 21 insertions(+), 2 deletions(-)
+grc-korea:338 Final Project sclark20$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 716 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sclarkcreative/338-Lab-Final.git
+   d53a006..d2120dc  master -> master
+grc-korea:338 Final Project sclark20$ git log
+commit d2120dccebaf418f9572950559e1d2168866993e
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 16 14:52:50 2017 -0700
+
+    include feature titles
+
+commit d53a006f611d1f3eff7898b66a533ef662d347d0
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 16 14:31:57 2017 -0700
+
+    add images
+
+commit 2db00d8db30d7162e271fd244e0cd57e9d1c3229
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 16 13:35:36 2017 -0700
+
+    style nav bar
+
+commit ef1f1ff7cf7a445b14d1372f194a1ee22528bb84
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 16 12:54:29 2017 -0700
+
+    add files
+:
