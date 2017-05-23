@@ -55,24 +55,20 @@ hr {
 	border-top: 1px double #8c8b8b;
 }
 
-.images img{
-	float:left;
-	
+figure img {
+	width:300px;
+	height:auto;
+
 }
 
-.images h2{
-float:left;
+figure, figcaption { 
+			display:block;
+			float:left;
+			position:relative;
+			left:30px;
 }
 
-.clear {
-clear:both;
-}
-
-p {
-    height:20px;
-	width:100%;
-	border-style: solid yellow;
-}
-
-figcaption { display:block;
+figcaption {
+		font-family:'Ovo',serif;
+		text-align:center;
 }
