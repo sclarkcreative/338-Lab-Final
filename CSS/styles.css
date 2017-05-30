@@ -15,18 +15,18 @@ nav {
 	height: 50px;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 }
 
-li {
+nav li {
 	font-family: 'Ovo', serif;
 	text-transform:uppercase;
 	float:left;
 	line-height:50px;
 }
 
-li a {
+nav li a {
 	display:block;
 	padding:0em 2em;
 	text-decoration:none;
@@ -47,7 +47,7 @@ h1 {
 	margin:30px auto;
 	font-family: 'Ovo', serif;
 	text-align:center;
-	font-size:1.2em;
+	font-size:1.7em;
 }
 
 hr {
@@ -98,6 +98,10 @@ th {
 	color:lightcoral;
 }
 
+table tr th:hover {
+	color:white;
+}
+
 tr:hover {
 	background-color:lightcoral;	
 }
@@ -130,19 +134,48 @@ fieldset {
 		display:inline-block;
 }
 
+
 h3 {
 		font-family:'Ovo',serif;
 		font-size:1.25em;
 }
 
 p {
-	font family:'Ovo', serif;
+	font-family:'Ovo', serif;
 }
 
 /* recipes styling */
-ol {
-	list-style-type:none;
+
+h2 {
+	font-family:'Dancing Script', cursive;
+	clear:left;
+	font-size:28px;
 }
-li .ingredient {
-	clear:both;
+	
+
+ol {
+	display:block;
+	float:left;
+	list-style-type:none;
+	clear:left;
+	margin-top:-15px;
+}
+
+li {
+	color:grey;
+	font-family:'Ovo', serif;
+}
+
+h4 {
+	
+}
+
+div img {
+	width:300px;
+	height:auto;
+	float:right;
+}
+
+.ingredients {
+	background:red;
 }
