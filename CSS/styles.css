@@ -61,7 +61,7 @@ figure img {
 
 }
 
-figure { 
+figures { 
 	display:block;
 	float:left;
 	position:relative;
@@ -137,4 +137,12 @@ h3 {
 
 p {
 	font family:'Ovo', serif;
+}
+
+/* recipes styling */
+ol {
+	list-style-type:none;
+}
+li .ingredient {
+	clear:both;
 }
