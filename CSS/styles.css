@@ -58,10 +58,12 @@ hr {
 figure img {
 	width:300px;
 	height:auto;
+	margin:0px;
+	display:inline-block;
 
 }
 
-figures { 
+figure { 
 	display:block;
 	float:left;
 	position:relative;
@@ -155,9 +157,7 @@ h2 {
 
 ol {
 	display:block;
-	float:left;
 	list-style-type:none;
-	clear:left;
 	margin-top:-15px;
 }
 
@@ -168,8 +168,9 @@ li {
 
 h4 {
 	width:50%;
-	margin:-200px auto 20px auto;
+	margin:20px auto;
 	font-family:'Ovo', serif;
+	float:left;
 }
 
 div img {
@@ -179,4 +180,5 @@ div img {
 }
 
 .ingredients {
+	float:left;
 }
