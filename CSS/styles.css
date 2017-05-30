@@ -167,7 +167,9 @@ li {
 }
 
 h4 {
-	
+	width:50%;
+	margin:-200px auto 20px auto;
+	font-family:'Ovo', serif;
 }
 
 div img {
@@ -177,5 +179,4 @@ div img {
 }
 
 .ingredients {
-	background:red;
 }
