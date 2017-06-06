@@ -130,13 +130,14 @@ blockquote {
 
 /* styling for email submission */
 
-fieldset {
+footer {
 		background-color:mintcream;
 		text-align:center;
 		border:none;
 		padding:20px;
 		position:fixed;
 		bottom:0;
+		left:0;
 		width:100%;
 		display:inline-block;
 }
@@ -181,7 +182,7 @@ div img {
 	
 	width:400px;
 	margin:auto;
-	
+	padding:30px;
 	height:auto;
 	float:right;
 }
@@ -190,8 +191,8 @@ div img {
 	float:left;
 }
 
-fieldset .clear {
-	clear:left;
+.clear {
+	clear:both;
 }
 
 .scullerysyd {
@@ -202,7 +203,7 @@ fieldset .clear {
 
 p2 {
 	display:block;
-	margin:350px auto;
+	margin:400px auto;
 	width:75%;
 }
 
