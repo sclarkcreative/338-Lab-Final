@@ -191,3 +191,13 @@ div img {
 fieldset .clear {
 	clear:left;
 }
+
+.scullerysyd {
+	width:500px;
+	clear:both;
+	margin:auto;
+}
+
+.p{
+	display:block;
+}
