@@ -181,7 +181,7 @@ div img {
 	
 	width:400px;
 	margin:auto;
-	padding:30px;
+	
 	height:auto;
 	float:right;
 }
@@ -202,6 +202,33 @@ fieldset .clear {
 
 p2 {
 	display:block;
-	margin:400px auto;
+	margin:350px auto;
 	width:75%;
+}
+
+.signup {
+		clear:both;
+}
+
+h5 {
+	width:90%;
+	margin:auto;
+	padding:30px;
+	text-align:center;
+	font-size:3em;
+	font-family:'Dancing Script', cursive;
+	color:palevioletred;
+}
+
+h6 {
+	width:90%;
+	margin:auto;
+	padding:30px;
+	text-align:center;
+	font-family:'Ovo',serif;
+	font-size:1.25em;
+}
+
+h6 a:hover {
+	color:palevioletred;
 }
